@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@1,400;1,700;1,800&family=Oxygen&family=Ubuntu:wght@300;400;500;700&family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #18191A;
+}
+.container{
+    display: flex;
+}
+.main-content{
+    width: 80%;
+   
+
+}
+.card{
+    background-color: #242526;
+    border-radius: 10px;
+    width: 60%;
+    margin: 50px auto; 
+    padding: 20px;
+}
+.card span{
+    color: #f8f8f8;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.card-inner-container{
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(87, 80, 80);
+}
+.mobile-view {
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    background-image: url('./img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px;
+}
+.mobile-view span{
+    text-align: center;
+    font-size: 22px;
+}
+.left-content{
+    width: 18%;
+    background-color: #242526;
+    height: 100vh;
+    padding: 10px;
+    border-right: 1px solid rgb(87, 80, 80);
+    
+}
+textarea{
+    padding: 20px;
+    resize: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+textarea::placeholder{
+    font-size: 21px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+textarea,
+select{
+    background-color: #242526;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(87, 80, 80);
+    border-radius: 10px;
+    width: 100%;
+    color: #f8f8f8;
+}
+textarea:focus,
+select:focus{
+    box-shadow: 0px 0px 4px 2px #b2b9f7;
+}
+select{
+    padding: 20px 15px;
+    font-size: 18px;
+}
+
+.input-field{
+    margin-bottom: 20px;
+}
+.bg-images{
+    border: 1px solid rgb(87, 80, 80);
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.bg-images p{
+    color: #f8f8f8;
+
+}
+.bg-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.img{
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img.active{
+    border: 4px solid #4294FF;
+}

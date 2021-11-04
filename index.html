@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Day</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="left-content">
+                <div class="input-field">
+                    <textarea id="text" cols="30" rows="10" placeholder="Start Typing"></textarea>
+                </div>
+                <div class="input-field">
+                    <select onchange="fontStyle(this.value)">
+                        <option value="Ubuntu">Simple</option>
+                        <option value="Oxygen">Clean</option>
+                        <option value="Zen Antique">Fency</option>
+                        <option value="Dancing Script">Casual</option>
+                        <option value="Open Sans">Headline</option>
+                    </select>
+                </div>
+               
+                <div class="bg-images">
+                    <p>Backgounds</p>
+                    <div class="bg-img">
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg1.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg2.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg3.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg4.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg5.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg6.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg7.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg8.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg9.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg10.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg11.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg12.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg13.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg14.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg15.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg16.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg17.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg18.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/bg19.jpg');"></div>
+                        <div onclick="changeBg(this)" class="img" style="background-image: url('./img/ng20.jpg');"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="card">
+                    <span>Preview</span>
+                    <div class="card-inner-container">
+                        <div class="mobile-view">
+                            <span id="previewText"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
